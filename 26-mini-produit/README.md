@@ -12,3 +12,9 @@ Partez d’un tableau initial de trois idées. Stockez les votes dans la session
 Un vote change le classement, le rafraîchissement ne revote pas et un identifiant inconnu ne crée aucune idée.
 
 Depuis la racine du projet, lancez `php -S 127.0.0.1:8000 -t 26-mini-produit`. Puis ouvrez `http://127.0.0.1:8000`. Arrêtez le serveur avant de lancer un autre exercice web sur ce port.
+
+## Pourquoi cette solution
+
+La session mémorise les votes, la validation empêche les identifiants inconnus, le tri classe les idées et la redirection évite un double vote.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

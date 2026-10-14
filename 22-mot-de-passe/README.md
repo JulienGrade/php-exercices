@@ -12,3 +12,9 @@ Hachez un mot de passe avec `PASSWORD_DEFAULT`, vérifiez une bonne et une mauva
 La bonne tentative est vraie, la mauvaise fausse ; le HTML saisi ne s’exécute pas.
 
 Depuis la racine du projet, lancez `php -S 127.0.0.1:8000 -t 22-mot-de-passe`. Puis ouvrez `http://127.0.0.1:8000`. Arrêtez le serveur avant de lancer un autre exercice web sur ce port.
+
+## Pourquoi cette solution
+
+`password_hash` produit un hachage salé et `password_verify` vérifie sans divulguer le secret.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

@@ -11,4 +11,10 @@
 
 Pour trois scores, l’affichage alterne production 10, consommation 10, etc.
 
-Depuis la racine du projet, lancez `php 24-flux/index.php`. 
+Depuis la racine du projet, lancez `php 24-flux/index.php`.
+
+## Pourquoi cette solution
+
+`yield` suspend la fonction jusqu’à la prochaine consommation ; l’ordre des messages montre cette alternance.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

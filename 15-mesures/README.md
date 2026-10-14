@@ -11,4 +11,10 @@
 
 32°F donne 0°C et 68°F donne 20°C.
 
-Depuis la racine du projet, lancez `php 15-mesures/index.php`. 
+Depuis la racine du projet, lancez `php 15-mesures/index.php`.
+
+## Pourquoi cette solution
+
+Le type union limite les formes attendues ; `mixed` exige un contrôle explicite ; `never` signale une sortie exceptionnelle.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

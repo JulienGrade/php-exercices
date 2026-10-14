@@ -11,4 +11,10 @@ Définissez `Notifier` avec `send(string): string`. Implémentez `EmailNotifier`
 
 La même fonction produit deux annonces selon l’objet reçu.
 
-Depuis la racine du projet, lancez `php 12-canaux/index.php`. 
+Depuis la racine du projet, lancez `php 12-canaux/index.php`.
+
+## Pourquoi cette solution
+
+La fonction dépend de l’interface, ce qui permet de changer le canal sans la modifier.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

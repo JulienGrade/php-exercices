@@ -11,4 +11,10 @@ Créez une classe `Character` avec `describe`, puis `Mage extends Character` qui
 
 Un mage affiche son nom, sa classe et son niveau.
 
-Depuis la racine du projet, lancez `php 13-personnages/index.php`. 
+Depuis la racine du projet, lancez `php 13-personnages/index.php`.
+
+## Pourquoi cette solution
+
+`parent::describe()` réutilise la description générale ; le trait partage un comportement entre classes.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

@@ -11,4 +11,10 @@ Créez la date `2026-10-06 18:00:00` en UTC, ajoutez 90 minutes sans modifier l�
 
 L’original UTC reste à 18 h ; en octobre, Paris affiche 20 h au départ.
 
-Depuis la racine du projet, lancez `php 18-evenement/index.php`. 
+Depuis la racine du projet, lancez `php 18-evenement/index.php`.
+
+## Pourquoi cette solution
+
+Une date immuable rend la transformation explicite ; le fuseau convertit l’affichage sans changer l’instant.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

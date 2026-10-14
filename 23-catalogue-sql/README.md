@@ -11,4 +11,10 @@ Créez une base SQLite en mémoire avec PDO, une table et trois jeux. Insérez l
 
 Pour un seuil de 30, les jeux à 35 et 50 ressortent.
 
-Depuis la racine du projet, lancez `php 23-catalogue-sql/index.php`. 
+Depuis la racine du projet, lancez `php 23-catalogue-sql/index.php`.
+
+## Pourquoi cette solution
+
+Les paramètres SQL sont transmis séparément de la requête, y compris pour le seuil de recherche.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

@@ -11,4 +11,10 @@
 
 Les cas rendent 99, 90 et 180 ; un prix négatif est rejeté.
 
-Depuis la racine du projet, lancez `php 25-regle-testee/index.php`. 
+Depuis la racine du projet, lancez `php 25-regle-testee/index.php`.
+
+## Pourquoi cette solution
+
+Les cas juste avant et au seuil contrôlent la frontière de la règle ; l’entrée négative vérifie le rejet.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

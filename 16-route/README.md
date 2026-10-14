@@ -11,4 +11,10 @@ Créez un attribut `Route` ciblant les méthodes, annotez deux méthodes de `Pag
 
 Les chemins `/` et `/about` apparaissent avec leurs méthodes.
 
-Depuis la racine du projet, lancez `php 16-route/index.php`. 
+Depuis la racine du projet, lancez `php 16-route/index.php`.
+
+## Pourquoi cette solution
+
+L’attribut contient les métadonnées ; la réflexion les lit. Sans cette lecture, l’attribut ne déclenche aucune route.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

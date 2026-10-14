@@ -12,3 +12,9 @@ Lisez `q`, refusez les tableaux et limitez la longueur. Échappez la donnée uni
 `?q=PHP` affiche PHP ; une balise saisie apparaît comme texte.
 
 Depuis la racine du projet, lancez `php -S 127.0.0.1:8000 -t 19-recherche-web`. Puis ouvrez `http://127.0.0.1:8000`. Arrêtez le serveur avant de lancer un autre exercice web sur ce port.
+
+## Pourquoi cette solution
+
+La requête fournit une entrée non fiable ; la valeur est contrôlée, puis échappée lors de son insertion dans le HTML.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

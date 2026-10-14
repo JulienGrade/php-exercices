@@ -11,4 +11,10 @@ Encodez un tableau en JSON avec `JSON_THROW_ON_ERROR`. Écrivez-le dans un fichi
 
 Le nom du joueur et son thème sont retrouvés après relecture.
 
-Depuis la racine du projet, lancez `php 17-sauvegarde/index.php`. 
+Depuis la racine du projet, lancez `php 17-sauvegarde/index.php`.
+
+## Pourquoi cette solution
+
+Le fichier temporaire isole l’essai et `finally` le supprime même en cas d’échec.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.

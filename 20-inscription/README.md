@@ -12,3 +12,9 @@ Affichez le formulaire. En POST, refusez les tableaux, le nom vide ou trop long 
 Une adresse invalide affiche une erreur ; une saisie valide affiche une confirmation.
 
 Depuis la racine du projet, lancez `php -S 127.0.0.1:8000 -t 20-inscription`. Puis ouvrez `http://127.0.0.1:8000`. Arrêtez le serveur avant de lancer un autre exercice web sur ce port.
+
+## Pourquoi cette solution
+
+On valide les données avant de confirmer l’inscription et on échappe aussi les champs réaffichés.
+
+Une autre implémentation est recevable si elle respecte les consignes et les cas de vérification.
