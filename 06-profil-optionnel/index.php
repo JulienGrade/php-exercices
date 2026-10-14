@@ -2,7 +2,6 @@
 declare(strict_types=1);
 $profile = ['name' => 'Mira', 'nickname' => null];
 $lastLogin = null;
-// TODO
 echo $profile['nickname'] ?? $profile['name'], "\n";
 var_dump(isset($profile['nickname']));
 var_dump(array_key_exists('nickname', $profile));
