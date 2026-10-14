@@ -1,0 +1,9 @@
+<?php
+declare(strict_types=1);
+$artiste = 'Neon Pulse';
+$numero = 23;
+$prix = 35.0;
+// TODO : produire trois affichages distincts.
+echo "Concert : $artiste\n";
+echo 'Artiste : ' . $artiste . "\n";
+echo sprintf('Billet n° %04d — %.2f €', $numero, $prix), "\n";
